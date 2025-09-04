@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio | I.E. 20504 San Jerónimo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Roboto:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Menú -->
+    <nav class="navbar navbar-expand-lg shadow-sm sticky-top">
+        <div class="container">
+
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="img/logo.png" alt="Logo del colegio" width="40" height="40" class="me-2">
+                <span class="fw-bold text-uppercase" style="font-family: 'Cinzel', serif;">I.E. 20504</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="nuestro-colegio.html">Nuestro Colegio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="comunidad-educativa.html">Comunidad Educativa</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="galeria.html">Galería</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carrusel -->
+    <section class="container-fluid fondo-marron-claro py-5">
+        <div class="container">
+            <div class="row align-items-center">
+
+                <!-- Texto de bienvenida -->
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <h2 class="fw-bold display-6 text-uppercase mb-3">
+                        Bienvenidos a la I.E.<br>N° 20504 “San Jerónimo”
+                    </h2>
+                    <p class="lead mb-4">
+                        Lealtad, Disciplina, Estudio y Trabajo.<br>
+                        Explora nuestra comunidad, actividades y logros.
+                    </p>
+                    <a class="btn btn-lg btn-marron shadow-sm px-4 py-2" href="nuestro-colegio.html">
+                        Conócenos <i class="bi bi-arrow-right-circle ms-2"></i>
+                    </a>
+                </div>
+
+                <!-- Carrusel -->
+                <div class="col-md-6">
+                    <div id="carouselInicio" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <!-- portada institucional -->
+                            <div class="carousel-item active" data-bs-interval="3000">
+                                <img src="img/inicio/carrusel/portada.jpg" class="d-block w-100"
+                                    alt="Portada institucional">
+                            </div>
+                            <!-- noticia destacada -->
+                            <div class="carousel-item" data-bs-interval="3000">
+                                <img src="img/inicio/carrusel/noticia.jpg" class="d-block w-100"
+                                    alt="Noticia destacada">
+                            </div>
+                            <!-- novedad reciente -->
+                            <div class="carousel-item" data-bs-interval="3000">
+                                <img src="img/inicio/carrusel/novedad.jpg" class="d-block w-100" alt="Novedad reciente">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselInicio"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselInicio"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Últimos comunicados -->
+    <section class="container my-5">
+        <h4 class="text-center mb-4">ÚLTIMOS COMUNICADOS</h4>
+        <table class="table table-bordered text-center">
+            <thead class="table-light">
+                <tr>
+                    <th>Fecha</th>
+                    <th>Título</th>
+                    <th>Descargar</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>18/09/2025</td>
+                    <td>Inscripciones - Reinado San Jeronimista 2025</td>
+                    <td>
+                        <a href="img/inicio/docs/18_09_2025.pdf" class="btn btn-sm btn-primary" target="_blank"
+                            rel="noopener noreferrer">
+                            <i class="fas fa-download"></i> Descargar
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>28/08/2025</td>
+                    <td>Invitación a la feria escolar</td>
+                    <td>
+                        <a href="img/inicio/docs/28_08_2025.pdf" class="btn btn-sm btn-primary" target="_blank"
+                            rel="noopener noreferrer">
+                            <i class="fas fa-download"></i> Descargar
+                        </a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+
+    <!-- Actividades escolares -->
+    <section class="fondo-amarillo py-4 text-center">
+        <h4>ACTIVIDADES ESCOLARES EN EL MES DE AGOSTO</h4>
+        <p>
+            Puedes descargar las actividades escolares del mes de Agosto
+            haciendo clic
+            <a href="img/inicio/docs/actividades-agosto-2025.pdf" target="_blank">
+                aquí (actividades-agosto-2025.pdf)
+            </a>.
+        </p>
+    </section>
+
+    <!-- Servicios Educativos -->
+    <section class="container my-5">
+        <h4 class="text-center mb-4">SERVICIOS EDUCATIVOS</h4>
+        <div class="row text-center">
+
+            <!-- Orientación Psicologíca -->
+            <div class="col-md-6 servicio-card text-center mb-4">
+                <h6 class="mb-3">ORIENTACIÓN PSICOLÓGICA</h6>
+                <div class="row justify-content-center">
+                    <div class="col-6 col-sm-5 col-md-6 mb-3">
+                        <img src="img/inicio/servicios_educativos/psicologia1.jpg"
+                            class="img-fluid rounded shadow-sm servicio-img" alt="Servicio de psicología 1"
+                            onclick="ampliar(this)">
+                    </div>
+                    <div class="col-6 col-sm-5 col-md-6 mb-3">
+                        <img src="img/inicio/servicios_educativos/psicologia2.jpg"
+                            class="img-fluid rounded shadow-sm servicio-img" alt="Servicio de psicología 2"
+                            onclick="ampliar(this)">
+                    </div>
+                </div>
+                <p class="mt-3">
+                    El servicio de Psicología brinda apoyo emocional y orientación tanto a los estudiantes como a los
+                    padres de familia, promoviendo el bienestar integral de la comunidad educativa. Su objetivo es
+                    fortalecer la autoestima, la convivencia escolar y familiar, así como el desarrollo personal.
+                </p>
+            </div>
+
+            <!-- Aula de Innovación -->
+            <div class="col-md-6 servicio-card text-center mb-4">
+                <h6 class="mb-3">AULA DE INNOVACIÓN</h6>
+                <div class="row justify-content-center">
+                    <div class="col-6 col-sm-5 col-md-6 mb-3">
+                        <img src="img/inicio/servicios_educativos/innovacion1.jpg"
+                            class="img-fluid rounded shadow-sm servicio-img" alt="Aula de innovación 1"
+                            onclick="ampliar(this)">
+                    </div>
+                    <div class="col-6 col-sm-5 col-md-6 mb-3">
+                        <img src="img/inicio/servicios_educativos/innovacion2.jpg"
+                            class="img-fluid rounded shadow-sm servicio-img" alt="Aula de innovación 2"
+                            onclick="ampliar(this)">
+                    </div>
+                </div>
+                <p class="mt-3">
+                    Ambiente moderno y equipado con laptops, proyector, internet y herramientas interactivas que
+                    impulsan el aprendizaje digital. Este espacio permite a los estudiantes desarrollar competencias
+                    tecnológicas y realizar proyectos innovadores.
+                </p>
+            </div>
+
+            <!-- Escuela de Padres -->
+            <div class="col-md-6 servicio-card text-center mb-4">
+                <h6 class="mb-3">ESCUELA DE PADRES</h6>
+                <div class="row justify-content-center">
+                    <div class="col-6 col-sm-5 col-md-6 mb-3">
+                        <img src="img/inicio/servicios_educativos/padres1.jpg"
+                            class="img-fluid rounded shadow-sm servicio-img" alt="Escuela de padres 1"
+                            onclick="ampliar(this)">
+                    </div>
+                    <div class="col-6 col-sm-5 col-md-6 mb-3">
+                        <img src="img/inicio/servicios_educativos/padres2.jpg"
+                            class="img-fluid rounded shadow-sm servicio-img" alt="Escuela de padres 2"
+                            onclick="ampliar(this)">
+                    </div>
+                </div>
+                <p class="mt-3">
+                    Programa dirigido a padres y madres de familia con el objetivo de fortalecer el acompañamiento
+                    educativo y emocional de sus hijos. A través de talleres, charlas y actividades, se promueve una
+                    crianza positiva, el diálogo familiar y la participación activa en la comunidad escolar.
+                </p>
+            </div>
+
+            <!-- Actividades Deportivas -->
+            <div class="col-md-6 servicio-card text-center mb-4">
+                <h6 class="mb-3">ACTIVIDADES DEPORTIVAS</h6>
+                <div class="row justify-content-center">
+                    <div class="col-6 col-sm-5 col-md-6 mb-3">
+                        <img src="img/inicio/servicios_educativos/deporte1.jpg"
+                            class="img-fluid rounded shadow-sm servicio-img" alt="Actividades deportivas 1"
+                            onclick="ampliar(this)">
+                    </div>
+                    <div class="col-6 col-sm-5 col-md-6 mb-3">
+                        <img src="img/inicio/servicios_educativos/deporte2.jpg"
+                            class="img-fluid rounded shadow-sm servicio-img" alt="Actividades deportivas 2"
+                            onclick="ampliar(this)">
+                    </div>
+                </div>
+                <p class="mt-3">
+                    Espacios y programas recreativos que fomentan la actividad física, el trabajo en equipo y la vida
+                    saludable. Los estudiantes participan en disciplinas como fútbol, vóley y juegos
+                    recreativos, fortaleciendo así sus habilidades motrices y valores como el respeto y la cooperación.
+                </p>
+            </div>
+    </section>
+
+    <!-- Niveles Educativos -->
+    <section class="container-fluid fondo-amarillo py-5">
+        <div class="container">
+            <h4 class="text-center mb-4">NIVELES EDUCATIVOS</h4>
+            <div class="row">
+                <div class="col-md-6 mb-4 text-center">
+                    <h6>EDUCACIÓN PRIMARIA</h6>
+                    <p class="text-justify" style="text-align: justify;">
+                        En el nivel de Educación Primaria, se brinda una formación integral centrada en el desarrollo de
+                        habilidades básicas como la lectura, escritura, razonamiento lógico-matemático y valores. Se
+                        promueve un aprendizaje dinámico y participativo que fomente la creatividad, el respeto y la
+                        convivencia armónica.
+                    </p>
+                    <img src="img/inicio/niveles_educativos/primaria.jpeg" class="img-fluid rounded shadow-sm mt-3"
+                        alt="Educación Primaria" style="max-width: 70%;" onclick="ampliar(this)">
+                </div>
+                <div class="col-md-6 mb-4 text-center">
+                    <h6>EDUCACIÓN SECUNDARIA</h6>
+                    <p class="text-justify" style="text-align: justify;">
+                        La Educación Secundaria está orientada al fortalecimiento de competencias académicas, personales
+                        y sociales. Se guía al estudiante en la construcción de su identidad, el pensamiento crítico y
+                        la preparación para su continuidad educativa, promoviendo una formación responsable, reflexiva y
+                        comprometida con su entorno.
+                    </p>
+                    <img src="img/inicio/niveles_educativos/secundaria.jpeg" class="img-fluid rounded shadow-sm mt-3"
+                        alt="Educación Secundaria" style="max-width: 70%;" onclick="ampliar(this)">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <!-- Parte superior: marrón claro -->
+        <div class="fondo-marron-claro text-dark py-4">
+            <div class="container">
+                <div class="row">
+
+                    <!-- Enlaces rápidos -->
+                    <div class="col-md-4 mb-4 text-md-start">
+                        <h6 class="text-center text-md-start">ENLACES RÁPIDOS</h6>
+                        <ul class="list-unstyled" style="text-align: justify;">
+                            <li><a href="index.html" style="color: black; text-decoration: none;">Inicio</a></li>
+                            <li><a href="nuestro-colegio.html" style="color: black; text-decoration: none;">Nuestro
+                                    colegio</a>
+                            </li>
+                            <li><a href="comunidad-educativa.html"
+                                    style="color: black; text-decoration: none;">Comunidad
+                                    educativa</a></li>
+                            <li><a href="galeria.html" style="color: black; text-decoration: none;">Galería</a></li>
+                            <li><a href="contacto.html" style="color: black; text-decoration: none;">Contacto</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Datos de contacto -->
+                    <div class="col-md-4 mb-4 text-md-start">
+                        <h6 class="text-center text-md-start">DATOS DE CONTACTO</h6>
+                        <p style="text-align: justify;">
+                            <i class="bi bi-telephone"></i> 999 999 999<br>
+                            <i class="bi bi-envelope-fill"></i> ie20504sanjeronimo@gmail.com<br>
+                            <i class="bi bi-geo-alt-fill"></i> Jr. República de Venezuela S/N
+                        </p>
+                    </div>
+
+                    <!-- Redes sociales -->
+                    <div class="col-md-4 mb-4 text-md-start">
+                        <h6 class="text-center text-md-start">REDES SOCIALES</h6>
+                        <p style="text-align: justify;">
+                            <a href="https://www.facebook.com/profile.php?id=100063568363698" target="_blank"
+                                class="me-3 text-decoration-none text-dark">
+                                <i class="bi bi-facebook"></i>
+                            </a>
+                            <a href="https://www.youtube.com/@iesanjeronimo" target="_blank"
+                                class="text-decoration-none text-dark">
+                                <i class="bi bi-youtube"></i>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Parte inferior: marrón oscuro -->
+        <div class="footer">
+            <div class="container">
+                <p class="mb-0" style="text-align: center;">
+                    &copy; 2025 I.E. N° 20504 “San Jerónimo” – Pativilca. Todos los derechos reservados.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal único reutilizable -->
+    <div id="modalImagen" class="modal">
+        <span class="cerrar" onclick="cerrarModal()">&times;</span>
+        <img class="modal-contenido" id="imgAmpliada">
+    </div>
+
+    <!-- Script -->
+    <script src="js/main.js" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
